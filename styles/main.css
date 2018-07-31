@@ -1,0 +1,338 @@
+html body {
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  line-height: 30px;
+  background: #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+  padding: 0 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.nav:hover {
+  color: #fff;
+  background: #000;
+}
+
+.page {
+  width: 16rem;
+  height: 28.37333rem;
+  background: url(../images/bg.png);
+  background-size: 100% 100%;
+  position: relative;
+  display: none;
+}
+
+.page.active {
+  display: block;
+}
+
+.home .demo {
+  width: 100%;
+  height: 100%;
+  background: url(../images/home_bg.png);
+  background-size: 100% auto;
+}
+
+.home .demo .header {
+  text-align: center;
+}
+
+.home .demo .header span {
+  color: #fff;
+  font-size: 0.72533rem;
+}
+
+.home .demo .header h2 {
+  color: #006cb0;
+  font-size: 1.06667rem;
+}
+
+.home .demo .header p {
+  color: #3099db;
+  font-size: 0.64rem;
+}
+
+.home .demo .content {
+  position: relative;
+  height: 15.57333rem;
+}
+
+.home .demo .content .img_logo {
+  position: absolute;
+  top: 4.416rem;
+  left: 7.12533rem;
+  width: 1.856rem;
+  height: 1.856rem;
+}
+
+.home .demo .footer {
+  position: relative;
+}
+
+.home .demo .footer .img_yaoyiyao {
+  position: absolute;
+  top: 2.048rem;
+  left: 1.83467rem;
+}
+
+.list .animation_list {
+  padding-top: 2.96533rem;
+}
+
+.list .animation_list .content {
+  width: 100%;
+  height: 87%;
+  background: url(../images/red_backgroud.png);
+  background-size: 99%;
+  background-repeat: no-repeat;
+}
+
+.list .animation_list .content h3 {
+  padding-top: 2.13333rem;
+  font-size: 0.72533rem;
+  color: #fefefe;
+  height: 0.74667rem;
+  text-align: center;
+}
+
+.list .animation_list .content .item {
+  position: relative;
+  width: 14.336rem;
+  height: 5.58933rem;
+  left: 0.64rem;
+  top: 0.96rem;
+  background: url(../images/item_backgroud.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.list .animation_list .content .item .top {
+  padding-left: 1.06667rem;
+  padding-top: 0.85333rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.list .animation_list .content .item .top .mark {
+  position: absolute;
+  right: 0.93867rem;
+  top: 1.152rem;
+  -webkit-transform: rotate(39deg);
+          transform: rotate(39deg);
+  color: white;
+  font-size: 0.512rem;
+}
+
+.list .animation_list .content .item .top img {
+  width: 2.38933rem;
+  height: 2.38933rem;
+}
+
+.list .animation_list .content .item .top .detail p {
+  margin: 0;
+  margin-top: 0.42667rem;
+  margin-left: 0.42667rem;
+  font-size: 0.64rem;
+  height: 0.61867rem;
+  line-height: 0.576rem;
+  color: white;
+}
+
+.list .animation_list .content .item .top .detail span {
+  margin: 0;
+  margin-top: 0.42667rem;
+  margin-left: 0.42667rem;
+  font-size: 0.512rem;
+  height: 0.49067rem;
+  line-height: 0.448rem;
+  color: white;
+}
+
+.list .animation_list .content .item .bottom {
+  padding-left: 1.06667rem;
+  padding-top: 0.74667rem;
+  color: #666666;
+  font-size: 0.512rem;
+  height: 0.49067rem;
+  line-height: 0.448rem;
+}
+
+.list .animation_list .footer {
+  text-align: center;
+}
+
+.list .animation_list .footer img {
+  width: 1.152rem;
+  height: 1.152rem;
+}
+
+.success .animation_success {
+  position: relative;
+  top: 3.98933rem;
+  left: 0.64rem;
+  width: 14.50667rem;
+  height: 22.656rem;
+  background: url(../images/square.png) no-repeat;
+  background-size: 100%;
+}
+
+.success .animation_success .top {
+  padding-left: 1.28rem;
+  padding-top: 0.85333rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.success .animation_success .top .mark {
+  position: absolute;
+  right: 0.93867rem;
+  top: 1.36533rem;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  color: white;
+  font-size: 0.512rem;
+}
+
+.success .animation_success .top img {
+  width: 2.38933rem;
+  height: 2.38933rem;
+}
+
+.success .animation_success .top .detail p {
+  margin: 0;
+  margin-top: 0.42667rem;
+  margin-left: 0.42667rem;
+  font-size: 0.64rem;
+  height: 0.61867rem;
+  line-height: 0.576rem;
+  color: white;
+}
+
+.success .animation_success .top .detail span {
+  margin: 0;
+  margin-top: 0.42667rem;
+  margin-left: 0.42667rem;
+  font-size: 0.512rem;
+  height: 0.49067rem;
+  line-height: 0.448rem;
+  color: white;
+}
+
+.success .animation_success .desc {
+  color: #fefefe;
+  text-align: center;
+  margin-top: 1.62133rem;
+}
+
+.success .animation_success .desc h3 {
+  margin: 0;
+  font-size: 1.06667rem;
+  height: 1.024rem;
+  line-height: 0.40533rem;
+}
+
+.success .animation_success .desc span {
+  margin: 0;
+  font-size: 0.59733rem;
+  height: 0.576rem;
+  line-height: 0.40533rem;
+}
+
+.success .animation_success .content {
+  position: relative;
+}
+
+.success .animation_success .content .wrap {
+  position: absolute;
+  top: 2.13333rem;
+  padding-left: 3.24267rem;
+}
+
+.success .animation_success .content .wrap img {
+  padding-left: 1.06667rem;
+  width: 5.71733rem;
+  height: 5.71733rem;
+}
+
+.success .animation_success .content .wrap span {
+  padding-top: 0.64rem;
+  display: block;
+  font-size: 0.72533rem;
+  color: #333333;
+  text-align: center;
+}
+
+.success .animation_success .content .address {
+  position: absolute;
+  width: 90.5%;
+  top: 10.15467rem;
+  margin-left: 0.768rem;
+  height: 1.38667rem;
+  background: whitesmoke;
+  line-height: 1.38667rem;
+  color: #999999;
+  text-align: center;
+  font-size: 0.55467rem;
+}
+
+.success .animation_success .bottom {
+  position: absolute;
+  bottom: -3.62667rem;
+  left: 7.46667rem;
+  text-align: center;
+}
+
+.success .animation_success .bottom img {
+  width: 1.152rem;
+  height: 1.152rem;
+}
+
+.faild .animation_faild {
+  position: relative;
+  top: 3.24267rem;
+  left: 0.96rem;
+}
+
+.faild .animation_faild img {
+  width: 14.016rem;
+  height: 17.83467rem;
+}
+
+.faild .animation_faild .bottom {
+  position: absolute;
+  bottom: -3.62667rem;
+  left: 6.4rem;
+  text-align: center;
+}
+
+.faild .animation_faild .bottom img {
+  width: 1.152rem;
+  height: 1.152rem;
+}
+
+.page.active .demo {
+  -webkit-animation: fade 2s both;
+          animation: fade 2s both;
+}
+
+.page.active .animation_list {
+  -webkit-animation: fadeFromRight 3s both;
+          animation: fadeFromRight 3s both;
+}
+
+.page.active .animation_success {
+  -webkit-animation: fadeFromRight 3s both;
+          animation: fadeFromRight 3s both;
+}
+
+.page.active .animation_faild {
+  -webkit-animation: fade 2s both;
+          animation: fade 2s both;
+}
+/*# sourceMappingURL=main.css.map */
